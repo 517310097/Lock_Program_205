@@ -1,0 +1,45 @@
+SET PATH=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Windows Kits\10\Windows Performance Toolkit\;d:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\MATLAB7\bin\win32;D:\Program Files\TortoiseSVN\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;d:\Keil_v5\ARM\ARMCC\Bin;C:\Users\Administrator\AppData\Local\Python\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin
+SET ARMCC5_ASMOPT=--diag_suppress=9931
+SET ARMCC5_CCOPT=--diag_suppress=9931
+SET ARMCC5_LINKOPT=--diag_suppress=9931
+SET CPU_TYPE=APM32F103C8
+SET CPU_VENDOR=Geehy
+SET UV2_TARGET=KDemo
+SET CPU_CLOCK=0x00B71B00
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmAsm" --Via "..\obj\startup_stm32f10x_md._ia"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\core_cm3.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\system_stm32f10x.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\misc.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_can.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_gpio.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_rcc.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_tim.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_usart.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_flash.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_adc.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_dma.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_sdio.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_fsmc.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_bkp.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_cec.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_crc.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_dac.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_dbgmcu.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_exti.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_i2c.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_iwdg.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_pwr.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_rtc.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_spi.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_wwdg.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\main.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f10x_it.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\khostmotor.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\ksystick.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\klib.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\kwwdg.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\mspio.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\kuart.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\kexti.__i"
+"d:\Keil_v5\ARM\ARMCC\Bin\ArmLink" --Via "..\Obj\MotoCtr.lnp"
+"d:\Keil_v5\ARM\ARMCC\Bin\fromelf.exe" "..\Obj\MotoCtr.axf" --i32combined --output "..\Obj\MotoCtr.hex"
