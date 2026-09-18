@@ -1,4 +1,0 @@
---c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\App\KHostMotor -I ..\App\KSystick -I ..\App\KLib -I ..\App\KWwdg -I ..\App\MspIO -I ..\App\KUart -I ..\App\KExti
--ID:\Users\Administrator\AppData\Local\Arm\Packs\Geehy\APM32F1xx_DFP\1.1.0\Device\Device\Geehy\APM32F10x\Include
--D__UVISION_VERSION="538" -DAPM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
--o ..\obj\kuart.o --omf_browse ..\obj\kuart.crf --depend ..\obj\kuart.d "..\App\KUart\KUart.c"
