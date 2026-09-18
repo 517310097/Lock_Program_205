@@ -1,11 +1,5 @@
 #include "kpublic.h"  
 
-/**************************************
-窗口看门狗           0  0
-外部中断             0  1
-定时器2中断          0  2
-**************************************/
-
 #ifdef UartDebug
 uint8_t LockCtrCnt = 0;
 uint8_t UnlockCtrCnt = 0;
